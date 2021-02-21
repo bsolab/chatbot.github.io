@@ -270,7 +270,7 @@ button, a {
 }
 .projects-section-header {
   display: flex;
-  justify-content: space-between;
+  
   align-items: center;
   margin-bottom: 24px;
   color: var(--main-color);
@@ -859,4 +859,18 @@ button, a {
     right: 2px;
     top: 10px;
   }
+}
+.zz {
+  
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+
+}
+.zz img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 60px;
+  height: 60px;
 }
