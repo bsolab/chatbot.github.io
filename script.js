@@ -9,12 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var gridView = document.querySelector('.grid-view');
   var projectsList = document.querySelector('.project-boxes');
   
-  listView.addEventListener('click', function () {
-    gridView.classList.remove('active');
-    listView.classList.add('active');
-    projectsList.classList.remove('jsGridView');
-    projectsList.classList.add('jsListView');
-  });
+ 
   
   gridView.addEventListener('click', function () {
     gridView.classList.add('active');
@@ -84,21 +79,21 @@ $(window).on('keydown', function(e) {
 })
 
 var Fake = [
-  '你知道台灣人平均只有一顆搞完嗎',
+  '你知道台灣人平均只有一顆睪丸嗎',
   '事情不是憨人想的那麼甘單',
-  'How are you?',
-  'Not too bad, thanks',
-  'What do you do?',
-  'That\'s awesome',
-  'Codepen is a nice place to stay',
-  'I think you\'re a nice person',
-  'Why do you think that?',
-  'Can you explain?',
-  'Anyway I\'ve gotta go now',
-  'It was a pleasure chat with you',
-  'Time to make a new codepen',
-  'Bye',
-  ':)'
+  '你有聽過”ATM“理論嗎?',
+  '想當年我在涼山特勤中心當醫官的時候．．．',
+  '我是想要白色的啦，但翰翰想要白色的~',
+  '你知道台灣人平均只有一顆睪丸嗎',
+  '事情不是憨人想的那麼甘單',
+  '你有聽過”ATM“理論嗎?',
+  '想當年我在涼山特勤中心當醫官的時候．．．',
+  '我是想要白色的啦，但翰翰想要白色的~',
+  '你知道台灣人平均只有一顆睪丸嗎',
+  '事情不是憨人想的那麼甘單',
+  '你有聽過”ATM“理論嗎?',
+  '想當年我在涼山特勤中心當醫官的時候．．．',
+  '我是想要白色的啦，但翰翰想要白色的~'
 ]
 
 function fakeMessage() {
