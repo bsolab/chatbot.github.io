@@ -862,7 +862,7 @@ button, a {
 }
 .zz {
   
-  padding: 16px;
+  padding-right: 16px;
   display: flex;
   align-items: flex-start;
 
